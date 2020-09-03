@@ -10,9 +10,19 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #8f8f8f;
-  text-align: center;
 }
 
+.about-p {
+  text-align: left;
+}
+
+.mb-0 {
+  color: #ffffff;
+}
+
+.blockquote-footer {
+  color: #ffffff;
+}
 /* Sections */
 .colored-section {
   background-color: #8A2BE2;
