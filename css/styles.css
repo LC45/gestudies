@@ -23,10 +23,11 @@ p {
 }
 
 /* Headings */
-.big-heading {
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
+
+
+.display-4 {
+  font-weight: 600;
+  padding-top: 0px;
 }
 
 .section-heading {
@@ -62,6 +63,28 @@ p {
 }
 
 /* Title Heading */
+.jumbotron {
+  color: #ffff;
+  background-color: #8A2BE2;
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+
+.jumbo-paragraph {
+  color: #ffff;
+  background-color: #8A2BE2;
+  font-weight: 400;
+}
+
+.lead {
+  color: #ffff;
+  background-color: #8A2BE2;
+  font-weight: 400;
+}
+
+.my-4 {
+  color: #ffff;
+}
 
 #title .container-fluid {
   padding: 3% 15% 7%;
@@ -71,15 +94,43 @@ p {
 /* Title Image */
 .title-image {
   width: 60%;
+  height: 100%;
   transform: rotate(25deg);
   position: absolute;
-
+  right: 30%;
 }
 
 /* Download button */
-.download-button {
+.btn {
   margin: 5% 3% 5% 0;
+  background-color: #ffff;
+  color: black;
 }
+
+.myButton {
+	background:linear-gradient(to bottom, #8a2be2 5%, #a567e0 100%);
+	background-color:#8a2be2;
+	border-radius:28px;
+	border:1px solid #3f1e5e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-shadow:0px 0px 0px #461e6b;
+  margin-top: 50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #a567e0 5%, #8a2be2 100%);
+	background-color:#a567e0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 
 /* Features Section */
 #features {
@@ -101,13 +152,24 @@ p {
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #a567e0;
+}
+
+
+/* about */
+
+.about-p {
+  color: #ffff;
+}
+
+.col {
+  padding-top: 50px;
 }
 
 /* Testimonial Section */
-#testimonials {
+/* #testimonials {
   background-color: #8A2BE2;
-}
+} */
 
 .testimonial-image {
   width: 10%;
@@ -131,34 +193,71 @@ p {
   margin: 20px 20px 50px;
 } */
 
-/* Pricing Section */
-#pricing {
-  padding: 100px;
-}
-
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-column {
-  padding: 3% 2%;
-}
-
-/* Call to Action Section */
-#cta {
-
-}
-
 /* Footer Section*/
+
+.container-fluid-footer {
+  padding: 20px 0px 20px;
+}
+
+.copyright {
+  color: #000000;
+}
+
 /* * Responsiveness Section */
-/* @media (max-width: 1028px) {
+@media (max-width: 1028px) {
   #title {
     text-align: center;
-  } */
+  }
 
-  /* .title-image {
+  .title-image {
     transform: rotate(0);
     position: static;
-  } */
+  }
+}
+
+/* cookie consent  */
+
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #4B8EE7;
+    text-decoration: none;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #F1D600;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
 }
