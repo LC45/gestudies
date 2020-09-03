@@ -1,109 +1,164 @@
-h1, h2, h3, h4, h5, h6 {
+body {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
 p {
-  text-align: center;
-  line-height: 2rem;
-  padding-top: 10px;
+  color: #8f8f8f;
 }
 
-.title-header {
-  font-size: 5rem;
-  font-weight: 700;
-  text-align: left;
-  padding-top: 50px;
+/* Sections */
+.colored-section {
+  background-color: #8A2BE2;
+  color: #fff;
 }
 
 .white-section {
-  background-color: white;
-  color: black;
+  background-color: #fff;
 }
 
-.colored-section {
-  background-color: #6f4a8e;
-  color: white;
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-.title-paragraph {
-  text-align: left;
-  font-size: 1.5rem;
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.title-image {
-  size: 10%;
-}
-
-.row {
-  margin: 1% 1% 1%;
-}
-
+/* Containers */
 .container-fluid {
   padding: 7% 15%;
 }
 
-.btn {
-  vertical-align: middle;
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
-.btn {
-  box-shadow: inset 0 0 0 0 #efdcfb;
-  background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
-  background-color: #6f4a8e;
-  border-radius: 6px;
-  border: 1px solid #c584f3;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 14px 39px;
-  vertical-align: middle;
-  -webkit-writing-mode: horizontal-tb !important;
-  text-align: center;
+.navbar-brand {
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.btn:hover {
-  background: linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
-  background-color: #bc80ea;
+.navbar-item {
+  padding: 0 18px;
 }
 
-.btn:active {
-  top: 1px;
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
+
+/* Title Heading */
 
 #title .container-fluid {
   padding: 3% 15% 7%;
   text-align: left;
 }
 
-.navbar {
-  padding: 0 0 1rem;
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+
 }
 
-.nav-link {
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 300;
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 
-.navbar-nav li a:hover {
-  color: #8675a9 !important;
+/* Features Section */
+#features {
+  z-index: 1;
+  position: relative;
 }
 
-.footer-padding {
-  padding-bottom: 60px;
+.feature-title {
+  font-size: 1.5rem;
 }
 
-.container-fluid-footer {
-  text-align: center;
-  background-color: #6f4a8e;
-  padding-bottom: 20px;
+.feature-box {
+  padding: 5%;
 }
 
-.footer-text {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  font-size: 15px;
-  color: white;
+.icon {
+  color: #8A2BE2;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #8A2BE2;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press section */
+/* #press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+} */
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action Section */
+#cta {
+
+}
+
+/* Footer Section*/
+/* * Responsiveness Section */
+/* @media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  } */
+
+  /* .title-image {
+    transform: rotate(0);
+    position: static;
+  } */
 }

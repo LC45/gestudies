@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
   <title>GE Studies</title>
 
-  <!-- css stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
 
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/ff053165fc.js" crossorigin="anonymous"></script>
 
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </head>
 
@@ -20,11 +26,13 @@
 
   <section class="colored-section" id="title">
 
-    <div class="container-fluid">
+    <div class="container-fluid style=" font-family:"Montserrat;">
 
+
+      <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark style=padding-left: 0px">
 
-        <a class="navbar-brand" href="#">GE Studies</a>
+        <a class="navbar-brand text" href="">GE Studies</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtoggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,143 +40,208 @@
         <div class="collapse navbar-collapse" id="navtoggler">
           <ul class="navbar-nav ml-auto">
             <li class="navbar-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#lessons">Lessons</a>
             <li class="navbar-item">
-              <a class="nav-link" href="#contact">Contact</a>
-              <!-- <li class="navbar-item">
-              <a class="nav-link" href="#cta">Download</a>
-            </li> -->
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            <li class="navbar-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
           </ul>
         </div>
+      </nav>
+
+
+
+
+      <!-- Title -->
+
+      <div>
+        <div class="row">
+          <div class="col-lg-6">
+
+            <h1 class="big-heading">Learn English Online.</h1>
+            <a href="mailto:info@gestudies.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Contact Us</a>
+            <!-- <button type="button" class="btn btn-dark btn-lg download-button" style="margin-top: 1.5rem;"><i class="fab fa-apple"></i> Download</button> -->
+          </div>
+
+          <!-- <div class="image-fluid">
+
+          </div>
+          <div class="col-lg-6">
+            <img class="title-image" src="images/tiles-3.jpg" alt="letters">
+          </div>
+        </div>
+      </div> -->
     </div>
-    </nav>
+    </div>
+    </div>
+    <div>
+
+    </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
 
     <div class="container-fluid">
 
       <div class="row">
-        <div class="col-lg-6">
-          <h1 class="title-header">English Language Coaching</h1>
-          <p class="title-paragraph">Learn English online.</p>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-wifi fa-4x"></i>
+          <h3 class="feature-title">Online</h3>
+          <p>Learn English from anywhere in the world.</p>
         </div>
 
-        <div class="col-lg-6">
-          <!-- <img src="images/tiles-1.jpg" class="img-fluid" alt="Responsive image"> -->
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-hands fa-4x"></i>
+          <h3 class="feature-title">Tailor-made</h3>
+          <p>Personally designed lessons to meet your needs.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-grin-beam fa-4x"></i>
+          <h3 class="feature-title">Fun</h3>
+          <p>Entertaining lessons with a wide range of topics.</p>
+        </div>
+      </div>
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section"  id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+      </a>
+    </div>
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <!-- <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section> -->
+
+
+  <!-- Pricing -->
+
+  <section class="white-section"  id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Productive Skills</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>Speaking</p>
+            <p>Writing</p>
+            <p></p>
+            <button type="button" class="btn-lg btn-block btn-outline-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Receptive Skills</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p>Listening</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+          </div>
         </div>
       </div>
     </div>
 
-    <section class="white-section">
+  </section>
 
-      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-laptop" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
-        <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
-      </svg>
+  <!-- Call to Action -->
 
-      <div class="container-fluid">
+  <section class="colored-section" id="cta">
 
-        <div class="row row-cols-1 row-cols-lg-3">
-          <div class="card text-center col-mb-4">
-            <div class="container">
-
-              <div class="card-header">
-                <h3 class="card-title">Where?</h3>
-              </div>
-              <!-- <img src="images/where.jpg" class="card-img-top" alt="where"> -->
-              <div class="card-body">
-
-                <p class="card-text">Our classes are online so join us from anywhere in the world!</p>
-                <!-- <a href="#" class="btn btn-primary">Find out more</a> -->
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="card text-center col-mb-4">
-              <div class="card-header">
-                <h3 class="card-title">What?</h3>
-              </div>
-              <!-- <img src="images/what.jpg" class="card-img-top" alt="where"> -->
-              <div class="card-body">
-
-                <p class="card-text">English language coaching for all ages, levels and skills. These include listening, reading, speaking, business English, writing and exam preparation.</p>
-                <!-- <a href="#" class="btn btn-primary">Find out more</a> -->
-              </div>
-            </div>
-          </div>
+    <div class="container-fluid">
 
 
-          <div class="container">
-            <div class="card text-center col-mb-4">
-              <div class="card-header">
-                <h3 class="card-title">Who?</h3>
-              </div>
-              <!-- <img src="images/who.jpg" class="card-img-top" alt="where"> -->
-              <div class="card-body">
+      <h1 class="big-heading">Book your free 15 min lesson now!</h1>
+      <a href="mailto:info@gestudies.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
 
-                <p class="card-text">Anybody who wants to learn or improve their English language skills.</p>
-                <!-- <a href="#" class="btn btn-primary">Click here</a> -->
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-      </div>
-      </div>
-
-
-    </section>
-
-    <section class="colored-section">
-
-      <div class="container-fluid" id="about">
-
-        <h1>About</h1>
-        <p>Hi, I'm Lisa from GE Studies. I've been coaching English for more than ten years in South Africa, South Korea, Germany and online. I love my job! My hobbies include reading, cycling and being in nature.</p>
-
-      </div>
-      </div>
-    </section>
-
-
+      <!-- <button type="button" href="mailto:info@gestudies.com" class="btn btn-dark btn-lg" style="margin-top: 1.5rem;">Contact Us</button> -->
     </div>
 
-    <section class="white-section">
-
-      <div class="container-fluid">
-
-        <div class="contact" id="contact">
-          <h1>Contact</h1>
-          <p>Send us a mail to find out more and book a free 15 minute online lesson. We look forward to hearing from you!</p>
-          <div class="text-center">
-            <input type="button" class="btn btn-primary center-block" value="CONTACT US" style="width:160px;">
-          </div>
-        </div>
-      </div>
-      </div>
-    </section>
+  </section>
 
 
-    <footer class="colored-section">
-      <div class="container-fluid-footer">
+  <!-- Footer -->
 
-        <p class="footer-text">&copy; GE STUDIES 2020</p>
+  <footer class="white-section"   id="footer">
 
-      </div>
+    <div class="container-fluid">
+        <!-- <button type="button" class="btn"><i class="fab fa-twitter"></i></button>
+        <button type="button" class="btn"><i class="fab fa-facebook-f"></i></button>
+        <button type="button" class="btn"><i class="fab fa-instagram"></i></button> -->
+        <!-- <button type="button" class="btn"><i class="fas fa-envelope"></i></i></button> -->
+        <p class="copyright">© Copyright 2020 GE Studies</p>
+    </div>
 
-    </footer>
+  </footer>
 
 
-
-    <!-- js to link html to javascript file -->
-
-    <script src="index.js" charset="utf-8"></script>
-
-    <!-- bootstrap scripts -->
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
