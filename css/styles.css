@@ -12,6 +12,7 @@ p {
   color: black;
   font-weight: 500;
 line-height: 2rem;
+font-size: 1.25rem;
 }
 
 /* Sections */
@@ -213,17 +214,6 @@ container {
   color: #000000;
 }
 
-/* * Responsiveness Section */
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    transform: rotate(0);
-    position: static;
-  }
-}
 
 /* cookie consent  */
 
@@ -233,7 +223,7 @@ container {
     font-size: 14px;
     color: #ccc;
     line-height: 26px;
-    padding: 8px 0 8px 30px;
+    padding: 20px 0 20px 50px;
     font-family: "Trebuchet MS",Helvetica,sans-serif;
     position: fixed;
     bottom: 0;
@@ -259,17 +249,17 @@ container {
     color: #FFF;
 }
 #cookieConsent a.cookieConsentOK {
-    background-color: #F1D600;
+    background-color: #ffff;
     color: #000;
     display: inline-block;
     border-radius: 5px;
-    padding: 0 20px;
+    padding: 20px 20px;
     cursor: pointer;
     float: right;
     margin: 0 60px 0 10px;
 }
 #cookieConsent a.cookieConsentOK:hover {
-    background-color: #E0C91F;
+    background-color: #ffff;
 }
 
 /* to top button */
@@ -326,4 +316,334 @@ body {
 
 .height {
     height: 3000px
+}
+
+/* Blockquote */
+
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}
+
+/* CSS code snippet for message box  */
+
+
+.portlet {
+margin-bottom: 15px;
+}
+
+.btn-white {
+border-color: #cccccc;
+color: #333333;
+background-color: #ffffff;
+}
+
+.portlet {
+border: 1px solid;
+}
+
+.portlet .portlet-heading {
+padding: 0 15px;
+}
+
+.portlet .portlet-heading h4 {
+padding: 1px 0;
+font-size: 16px;
+}
+
+.portlet .portlet-heading a {
+color: #fff;
+}
+
+.portlet .portlet-heading a:hover,
+.portlet .portlet-heading a:active,
+.portlet .portlet-heading a:focus {
+outline: none;
+}
+
+.portlet .portlet-widgets .dropdown-menu a {
+color: #333;
+}
+
+.portlet .portlet-widgets ul.dropdown-menu {
+min-width: 0;
+}
+
+.portlet .portlet-heading .portlet-title {
+float: left;
+}
+
+.portlet .portlet-heading .portlet-title h4 {
+margin: 10px 0;
+}
+
+.portlet .portlet-heading .portlet-widgets {
+float: right;
+margin: 8px 0;
+}
+
+.portlet .portlet-heading .portlet-widgets .tabbed-portlets {
+display: inline;
+}
+
+.portlet .portlet-heading .portlet-widgets .divider {
+margin: 0 5px;
+}
+
+.portlet .portlet-body {
+padding: 15px;
+background: #fff;
+}
+
+.portlet .portlet-footer {
+padding: 10px 15px;
+background: #e0e7e8;
+}
+
+.portlet .portlet-footer ul {
+margin: 0;
+}
+
+.portlet-green,
+.portlet-green>.portlet-heading {
+border-color: #8A2BE2;
+}
+
+.portlet-green>.portlet-heading {
+color: #fff;
+background-color: #8A2BE2;
+}
+
+.portlet-orange,
+.portlet-orange>.portlet-heading {
+border-color: #f39c12;
+}
+
+.portlet-orange>.portlet-heading {
+color: #fff;
+background-color: #f39c12;
+}
+
+.portlet-blue,
+.portlet-blue>.portlet-heading {
+border-color: #2980b9;
+}
+
+.portlet-blue>.portlet-heading {
+color: #fff;
+background-color: #2980b9;
+}
+
+.portlet-red,
+.portlet-red>.portlet-heading {
+border-color: #e74c3c;
+}
+
+.portlet-red>.portlet-heading {
+color: #fff;
+background-color: #e74c3c;
+}
+
+.portlet-purple,
+.portlet-purple>.portlet-heading {
+border-color: #8e44ad;
+}
+
+.portlet-purple>.portlet-heading {
+color: #fff;
+background-color: #8e44ad;
+}
+
+.portlet-default,
+.portlet-dark-blue,
+.portlet-default>.portlet-heading,
+.portlet-dark-blue>.portlet-heading {
+border-color: #34495e;
+}
+
+.portlet-default>.portlet-heading,
+.portlet-dark-blue>.portlet-heading {
+color: #fff;
+background-color: #34495e;
+}
+
+.portlet-basic,
+.portlet-basic>.portlet-heading {
+border-color: #333;
+}
+
+.portlet-basic>.portlet-heading {
+border-bottom: 1px solid #333;
+color: #333;
+background-color: #fff;
+}
+
+@media(min-width:768px) {
+.portlet {
+margin-bottom: 30px;
+}
+}
+
+.img-chat{
+width:40px;
+height:40px;
+}
+
+.text-green {
+color: #16a085;
+}
+
+.text-orange {
+color: #f39c12;
+}
+
+.text-red {
+color: #e74c3c;
+}
+
+/* css snippet simple chat box  */
+
+
+body {
+background:#ddd;
+margin-top:10px;
+}
+
+.chat-box {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden
+}
+
+.chats {
+    padding: 30px 15px
+}
+
+.chat-avatar {
+    float: right
+}
+
+.chat-avatar .avatar {
+    width: 30px
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+}
+
+.chat-body {
+    display: block;
+    margin: 10px 30px 0 0;
+    overflow: hidden
+}
+
+.chat-body:first-child {
+    margin-top: 0
+}
+
+.chat-content {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 8px 15px;
+    margin: 0 20px 10px 0;
+    clear: both;
+    color: #fff;
+    background-color: #62a8ea;
+    border-radius: 4px;
+        -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+
+.chat-content:before {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    content: '';
+    border: 5px solid transparent;
+    border-left-color: #62a8ea
+}
+
+.chat-content>p:last-child {
+    margin-bottom: 0
+}
+
+.chat-content+.chat-content:before {
+    border-color: transparent
+}
+
+.chat-time {
+    display: block;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, .6)
+}
+
+.chat-left .chat-avatar {
+    float: left
+}
+
+.chat-left .chat-body {
+    margin-right: 0;
+    margin-left: 30px
+}
+
+.chat-left .chat-content {
+    float: left;
+    margin: 0 0 10px 20px;
+    color: #76838f;
+    background-color: #dfe9ef
+}
+
+.chat-left .chat-content:before {
+    right: auto;
+    left: -10px;
+    border-right-color: #dfe9ef;
+    border-left-color: transparent
+}
+
+.chat-left .chat-content+.chat-content:before {
+    border-color: transparent
+}
+
+.chat-left .chat-time {
+    color: #a3afb7
+}
+
+.panel-footer {
+    padding: 0 30px 15px;
+    background-color: transparent;
+    border-top: 1px solid transparent;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.avatar img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 0 none;
+    border-radius: 1000px;
+}
+.chat-avatar .avatar {
+    width: 30px;
+}
+.avatar {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    white-space: nowrap;
+    border-radius: 1000px;
+    vertical-align: bottom;
 }
