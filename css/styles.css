@@ -15,8 +15,14 @@ p {
   font-size: 1.25rem;
 }
 
-.img {
-  padding-right: 40px;
+.img-profile {
+  /* padding-right: 40px; */
+  max-width: 100%;
+}
+
+.col {
+max-width: 100%;
+
 }
 
 .row {
@@ -625,9 +631,9 @@ span {
   font-size: 15px;
 }
 
-.box {
+/* .box {
   padding: 60px 0px;
-}
+} */
 
 .box-part {
   background: #FFF;
