@@ -44,8 +44,9 @@ max-width: 100%;
 }
 
 .container-about {
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 0;
+  padding-right: 0;
+
 }
 
 /* Sections */
@@ -196,7 +197,7 @@ span {
 .about-p {
   color: #ffff;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 /* Testimonial Section */
