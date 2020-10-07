@@ -195,6 +195,10 @@ span {
   padding-bottom: 25px;
 }
 
+.fa-user-circle {
+  color: #62a8ea;
+}
+
 /* about */
 .about-p {
   color: #ffff;
@@ -242,10 +246,10 @@ padding-top: 30px;
   float: right
 }
 
-.chat-avatar .avatar {
+/* .chat-avatar .avatar {
   width: 30px -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
-}
+} */
 
 .chat-body {
   display: block;
@@ -336,6 +340,10 @@ padding-top: 30px;
   border-bottom-left-radius: 3px;
 } */
 
+.avatar .avatar-online {
+  width: 100px;
+}
+
 .avatar img {
   width: 100%;
   max-width: 100%;
@@ -346,6 +354,7 @@ padding-top: 30px;
 
 .chat-avatar .avatar {
   width: 70px;
+  height: 70px;
 }
 
 .avatar {
