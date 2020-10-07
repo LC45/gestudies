@@ -143,30 +143,6 @@ max-width: 100%;
   color: black;
 }
 
-.myButton {
-  background-color: #4183D7;
-  border-radius: 28px;
-  border: 1px solid #4183D7;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 16px 31px;
-  text-shadow: 0 0 0 #4183D7;
-  margin-top: 50px;
-}
-
-.myButton:hover {
-  background-color: #4183D7;
-}
-
-.myButton:active {
-  position: relative;
-  top: 1px;
-}
-
 
 /* info cards */
 
@@ -195,6 +171,10 @@ span {
   padding-bottom: 25px;
 }
 
+.fa:hover {
+  color: #799cc9;
+}
+
 .fa-user-circle {
   color: #62a8ea;
 }
@@ -221,13 +201,39 @@ span {
 
 /* Footer Section*/
 .container-fluid-footer {
-  padding: 50px 0 20px;
+  padding-top: 0.2%;
+  padding-bottom: 2%;
 }
 
 .copyright {
   color: #ffff;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  padding-top: 0;
 }
+.fa-linkedin {
+    margin-top: 4%;
+    marging-right: 1%
+    padding-left: 1%;
+    padding-right: 1%;
+    color: #ffff;
+}
+
+.fa-instagram {
+  margin-top: 4%;
+  marging-right: 1%
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #ffff;
+}
+
+.fa-envelope {
+  margin-top: 4%;
+  marging-right: 1%
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #ffff;
+}
+
 
 /* css snippet simple chat box  */
 
@@ -246,6 +252,10 @@ padding-top: 30px;
   float: right
 }
 
+/* .chat-avatar .avatar {
+  width: 30px -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}  */
 
 .chat-body {
   display: block;
@@ -329,7 +339,7 @@ padding-top: 30px;
 
 /*
 .panel-footer {
-  padding: 0 30px 15px;
+  padding: 0 30px 40px;
   background-color: transparent;
   border-top: 1px solid transparent;
   border-bottom-right-radius: 3px;
