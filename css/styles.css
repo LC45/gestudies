@@ -31,7 +31,6 @@ max-width: 100%;
   padding-top: 50px;
 }
 
-
 /* containers */
 
 .container-fluid {
@@ -47,7 +46,16 @@ max-width: 100%;
 .container-about {
   padding-left: 0px;
   padding-right: 0px;
+}
 
+.container-fluid-footer {
+  padding-top: 0.2%;
+  padding-bottom: 2%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 4%;
+  text-align: left;
 }
 
 /* Sections */
@@ -130,19 +138,13 @@ max-width: 100%;
   color: #000000;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 4%;
-  text-align: left;
-}
-
-/* email button */
+/* buttons */
 
 .btn {
   margin: 5% 3% 5% 0;
   background-color: #ffff;
   color: black;
 }
-
 
 /* info cards */
 
@@ -166,50 +168,17 @@ span {
   margin: 20px 0;
 }
 
+/** Fontawesome icons **/
+
 .fa {
   color: #4183D7;
   padding-bottom: 25px;
-}
-
-.fa:hover {
-  color: #799cc9;
 }
 
 .fa-user-circle {
   color: #62a8ea;
 }
 
-/* about */
-.about-p {
-  color: #ffff;
-  text-align: center;
-  padding-top: 10px;
-}
-
-/* Testimonial Section */
-/*
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-} */
-
-/* Footer Section*/
-.container-fluid-footer {
-  padding-top: 0.2%;
-  padding-bottom: 2%;
-}
-
-.copyright {
-  color: #ffff;
-  font-size: 0.9rem;
-  padding-top: 0;
-}
 .fa-linkedin {
     margin-top: 4%;
     marging-right: 1%
@@ -234,6 +203,34 @@ span {
   color: #ffff;
 }
 
+/* about */
+
+.about-p {
+  color: #ffff;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/** Testimonial Section
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+} */
+
+/* Footer Section */
+
+.copyright {
+  color: #ffff;
+  font-size: 0.9rem;
+  padding-top: 0;
+}
 
 /* css snippet simple chat box  */
 
@@ -337,15 +334,6 @@ padding-top: 30px;
   color: #a3afb7
 }
 
-/*
-.panel-footer {
-  padding: 0 30px 40px;
-  background-color: transparent;
-  border-top: 1px solid transparent;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-} */
-
 .avatar .avatar-online {
   width: 100px;
 }
@@ -424,7 +412,7 @@ padding-top: 30px;
   background-color: #ffff;
 }
 
-/* to top button */
+/* to top arrow */
 
 .scroll {
   color: #fff;
@@ -475,3 +463,6 @@ padding-top: 30px;
 .height {
   height: 3000px;
 }
+
+
+/***** testimonial cards **/
