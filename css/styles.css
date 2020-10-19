@@ -74,6 +74,7 @@ max-width: 100%;
 .display-4 {
   font-weight: 600;
   padding-top: 0;
+  padding-bottom: 30px;
 }
 
 .section-heading {
@@ -127,6 +128,8 @@ max-width: 100%;
   color: #ffff;
   background-color: #4183D7;
   font-weight: 500;
+  margin-top: 20px;
+  padding-bottom: 80px;
 }
 
 .my-4 {
@@ -208,9 +211,14 @@ span {
 .about-p {
   color: #ffff;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 75px;
 }
 
+.image-profile {
+border-style: solid;
+border-color: white;
+
+}
 /** Testimonial Section
 
 .testimonial-image {
