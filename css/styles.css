@@ -190,7 +190,8 @@ span {
 
 .fa-envelope {
   margin-top: 4%;
-  marging-right: 1% padding-left: 1%;
+  marging-right: 1%;
+  padding-left: 1%;
   padding-right: 1%;
   color: #ffff;
 }
@@ -465,5 +466,10 @@ span {
 .privacy {
   font-size: 1rem;
   text-align: left;
-  color: #ffff;
+}
+
+
+.imprint-info {
+  font-size: 2rem;
+  text-align: left;
 }
